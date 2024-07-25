@@ -160,11 +160,11 @@ class CloudService:
 
 
 if __name__ == "__main__":
-    hostname = 'paramutkarsh.cdacb.in'
+    hostname = 'hostname'  # Your Host Name Here...
     ssh_port = 22  # SSH port on your cloud server
     grpc_port = 50051  # gRPC port on your cloud server
-    username = 'cmanthan'
-    password = 'leo'
+    username = 'username'  # Username
+    password = 'password'  # Password
     local_file_path = 'D:/Extra/Technical/TestFiles'
     # local_file_path = 'D:/Extra/Technical/GRPC'
     virtual_env_path = '/home/cmanthan/miniconda3/envs/leo_env'
